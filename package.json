@@ -1,0 +1,34 @@
+{
+  "author": "Luca Ongaro <mail@lucaongaro.eu> (http://www.lucaongaro.eu)",
+  "name": "loud-accessors",
+  "description": "Attribute accessors emitting events on change/read.",
+  "version": "0.0.0",
+  "main": "./lib/loud-accessors.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lucaong/loud-accessors.git"
+  },
+  "keywords": [
+    "accessors",
+    "events",
+    "getter",
+    "setter",
+    "event"
+  ],
+  "scripts": {
+    "test": "npm run compile && ./node_modules/.bin/buster-test -c spec/buster.js",
+    "compile": "./node_modules/.bin/coffee -c ./lib/loud-accessors.coffee",
+    "minify": "./node_modules/.bin/uglifyjs ./lib/loud-accessors.js -o ./lib/loud-accessors.min.js",
+    "build": "npm run compile && npm run minify"
+  },
+  "dependencies": {
+    "eventspitter": ""
+  },
+  "devDependencies": {
+    "buster": "0.6.x",
+    "coffee-script": "",
+    "buster-coffee": "",
+    "uglify-js": ""
+  },
+  "license": "MIT"
+}
