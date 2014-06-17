@@ -1,0 +1,32 @@
+{
+  "name": "loud-accessors",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lucaong/loud-accessors",
+  "authors": [
+    "Luca Ongaro <lukeongaro@gmail.com>"
+  ],
+  "description": "Attribute accessors emitting events on change/read.",
+  "main": "lib/loud-accessors.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "attribute",
+    "accessors",
+    "events",
+    "change",
+    "event",
+    "read",
+    "event"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
