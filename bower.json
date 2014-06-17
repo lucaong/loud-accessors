@@ -6,7 +6,7 @@
     "Luca Ongaro <lukeongaro@gmail.com>"
   ],
   "description": "Attribute accessors emitting events on change/read.",
-  "main": "lib/loud-accessors.js",
+  "main": "./lib/loud-accessors.js",
   "moduleType": [
     "amd",
     "globals",
