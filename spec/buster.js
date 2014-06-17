@@ -6,5 +6,6 @@ config["Browser tests"] = {
   libs: ["node_modules/eventspitter/lib/eventspitter.js"],
   sources: ["lib/loud-accessors.js"],
   tests: ["spec/**/*.spec.{coffee,js}"],
-  extensions: [require("buster-coffee")]
+  extensions: [require("buster-coffee")],
+  testHelpers: ["spec/spec_helper.js"]
 }

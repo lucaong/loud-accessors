@@ -25,7 +25,7 @@
     "eventspitter": ""
   },
   "devDependencies": {
-    "buster": "0.6.x",
+    "buster": "0.7.x",
     "coffee-script": "",
     "buster-coffee": "",
     "uglify-js": ""

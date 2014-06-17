@@ -21,6 +21,13 @@ factory = ( EventSpitter ) ->
 
       return value
 
+    del: ( name, opts ) ->
+      @_attributes ?= {}
+      delete @_attributes[ name ]
+
+      unless opts? and opts.silent
+        @emit "delete:#{name}", name
+
     # Class methods
 
     @attrAccessor: ( args... ) ->
