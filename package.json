@@ -2,7 +2,7 @@
   "author": "Luca Ongaro <mail@lucaongaro.eu> (http://www.lucaongaro.eu)",
   "name": "loud-accessors",
   "description": "Attribute accessors emitting events on change/read.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/loud-accessors.js",
   "repository": {
     "type": "git",
